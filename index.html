@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blended Acai Bar serves fresh acai bowls from the truck and shop in Springfield, Ohio."
+    />
+    <title>Blended Acai Bar</title>
+  </head>
+  <body>
+    <form name="order" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="order" />
+      <input name="bot-field" />
+      <input name="customerName" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="bowl" />
+      <input name="size" />
+      <input name="quantity" />
+      <input name="addons" />
+      <input name="pickupTime" />
+      <textarea name="notes"></textarea>
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
