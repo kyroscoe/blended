@@ -10,18 +10,51 @@
     <title>Blended Acai Bar</title>
   </head>
   <body>
-    <form name="order" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
-      <input type="hidden" name="form-name" value="order" />
+    <form name="bowl-order" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="bowl-order" />
       <input name="bot-field" />
       <input name="customerName" />
       <input name="email" />
       <input name="phone" />
+      <input name="inquiryType" />
       <input name="bowl" />
       <input name="size" />
       <input name="quantity" />
       <input name="addons" />
       <input name="pickupTime" />
-      <textarea name="notes"></textarea>
+      <textarea name="message"></textarea>
+    </form>
+    <form name="cake-order" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="cake-order" />
+      <input name="bot-field" />
+      <input name="customerName" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="inquiryType" />
+      <input name="eventDate" />
+      <textarea name="cakeDetails"></textarea>
+      <textarea name="message"></textarea>
+    </form>
+    <form name="private-event" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="private-event" />
+      <input name="bot-field" />
+      <input name="customerName" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="inquiryType" />
+      <input name="eventDate" />
+      <input name="guestCount" />
+      <textarea name="message"></textarea>
+    </form>
+    <form name="general-question" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="general-question" />
+      <input name="bot-field" />
+      <input name="customerName" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="inquiryType" />
+      <input name="subject" />
+      <textarea name="message"></textarea>
     </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
