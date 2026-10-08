@@ -8,11 +8,10 @@ export default function Header() {
   return (
     <header className="site-header">
       <a className="brand-lockup" href="#top" aria-label="Blended Açaí Bar home">
-        {/* Update logo photo in public/images/logo.jpg. */}
-        <img src="/images/logo.jpg" alt="Blended Açaí Bar logo" />
+        <span className="brand-mark" aria-hidden="true">B</span>
       </a>
-      <a className="header-order-link" href="#order">
-        Order Now
+      <a className="header-order-link" href="#inquiry">
+        Let's Talk
       </a>
       <nav className="site-nav" aria-label="Main navigation">
         {navItems.map((item) => (

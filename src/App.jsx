@@ -4,7 +4,6 @@ import BowlShowcase from "./components/BowlShowcase.jsx";
 import MenuSection from "./components/MenuSection.jsx";
 import OrderForm from "./components/OrderForm.jsx";
 import Contact from "./components/Contact.jsx";
-import PhotoStrip from "./components/PhotoStrip.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
@@ -17,7 +16,6 @@ export default function App() {
         <MenuSection />
         <OrderForm />
         <Contact />
-        <PhotoStrip />
       </main>
       <Footer />
     </>
